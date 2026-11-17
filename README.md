@@ -1,12 +1,12 @@
-# Money 2025 — 10 Proven Ways to Make Money
+# Money 2026 — 10 Proven Ways to Make Money
 
-A responsive, single-page web guide presenting **10 ways to make money in 2025**. The project is designed as a practical global guide, with links to relevant platforms and resources for readers who want to explore each method.
+A responsive, single-page web guide presenting **10 ways to make money in 2026**. The project is designed as a practical global guide, with links to relevant platforms and resources for readers who want to explore each method.
 
 **Author:** Michael Harrison Muthee Muriithi (Micky)
 
 ## About the Project
 
-Money 2025 brings together ten online and business income ideas in one easy-to-navigate page. It is built with plain HTML, CSS, and JavaScript in a single file, so it can be viewed directly in a browser without installing dependencies or setting up a build process.
+Money 2026 brings together ten online and business income ideas in one easy-to-navigate page. It is built with plain HTML, CSS, and JavaScript in separate files, so it can be viewed directly in a browser without installing dependencies or setting up a build process.
 
 ## The 10 Methods Covered
 
@@ -71,6 +71,12 @@ This is a static website and can be hosted using GitHub Pages or another static-
 ## Important Note
 
 This project is an educational and informational guide, not a promise of income or financial advice. Results from freelancing, e-commerce, content creation, investing, and other methods vary based on skills, effort, market conditions, eligibility, and risk. Investing in stocks, ETFs, or cryptocurrency involves risk, including possible loss of capital. Always research providers and understand their fees and terms before signing up or investing.
+
+## Contact & Collaboration
+
+For questions, partnerships, or collaboration opportunities, email [michaelmicky796@gmail.com](mailto:michaelmicky796@gmail.com).
+
+GitHub: [@Nmickymichael](https://github.com/Nmickymichael)
 
 ## Author
 
