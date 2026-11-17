@@ -48,10 +48,13 @@ No frameworks, package manager, or external JavaScript libraries are required.
 
 ```text
 mickey-moneymakingways-2025/
-└── index.html
+├── index.html   # HTML page structure and content
+├── style.css    # All website styling and responsive layouts
+├── script.js    # Theme toggle, card animations, navigation and interactions
+└── README.md    # Project documentation
 ```
 
-The styling and JavaScript are included inside `index.html`, keeping the project self-contained.
+The project is organised into separate HTML, CSS, and JavaScript files to make future editing and maintenance easier.
 
 ## Run Locally
 
