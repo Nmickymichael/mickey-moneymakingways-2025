@@ -1,6 +1,6 @@
 # Money 2026 — 10 Proven Ways to Make Money
 
-A responsive, single-page web guide presenting **10 ways to make money in 2026**. The project is designed as a practical global guide, with links to relevant platforms and resources for readers who want to explore each method.
+A responsive, dark-mode-enabled, single-page web guide presenting **10 practical ways to make money online in 2026**, with curated global platforms, useful resources and an interactive FAQ. The project is designed as a practical global guide, with links to relevant platforms and resources for readers who want to explore each method.
 
 **Author:** Michael Harrison Muthee Muriithi (Micky)
 
@@ -47,7 +47,7 @@ No frameworks, package manager, or external JavaScript libraries are required.
 ## Project Structure
 
 ```text
-mickey-moneymakingways-2025/
+money-making-2026/
 ├── index.html   # HTML page structure and content
 ├── style.css    # All website styling and responsive layouts
 ├── script.js    # Theme toggle, card animations, navigation and interactions
