@@ -1,0 +1,280 @@
+// Theme toggle (persisted)
+  (function(){
+    const stored = localStorage.getItem("theme");
+    if(stored){ document.documentElement.setAttribute("data-theme", stored); }
+  })();
+
+// Wait until the HTML document is ready before attaching page interactions.
+document.addEventListener('DOMContentLoaded', () => {
+  // Theme toggle (persisted)
+    (function(){
+      const stored = localStorage.getItem("theme");
+      if(stored){ document.documentElement.setAttribute("data-theme", stored); }
+    })();
+  </script>
+  </head>
+  <body>
+  
+  <!-- NAV -->
+  <nav class="nav" aria-label="Global">
+    <div class="nav-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7c9cff"/>
+              <stop offset="1" stop-color="#9a7cff"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4Z" stroke="url(#g)" stroke-width="1.6" fill="none"/>
+          <circle cx="12" cy="10" r="2.4" fill="url(#g)"/>
+        </svg>
+        <span>Money 2025</span>
+      </a>
+  
+      <div class="menu" role="navigation">
+        <a href="#methods">Methods</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta">Get Started</a>
+      </div>
+  
+      <div style="display:flex; gap:.5rem; align-items:center;">
+        <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">🌙</button>
+        <button id="menuBtn" class="icon-btn hamburger" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div>
+      <div class="kicker">Global Guide • 2025</div>
+      <h1 class="title">10 Proven Ways to Make Money in 2025</h1>
+      <p class="subtitle">Practical, global, and future‑ready strategies. Smooth navigation, dark mode, and a clean, animated theme you can launch as‑is.</p>
+      <div class="cta-row">
+        <a class="btn" href="#methods">Explore Methods</a>
+        <a class="btn sec" href="#cta">Launch Your Blog</a>
+        <span class="badge" title="Optimized for SEO">⚡ SEO‑Ready</span>
+        <span class="badge" title="Responsive design">📱 Mobile‑first</span>
+      </div>
+      <div class="share" aria-label="Share">
+        <a href="https://twitter.com/intent/tweet?text=10%20Proven%20Ways%20to%20Make%20Money%20in%202025&url=" target="_blank" rel="noopener">Share on X</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=" target="_blank" rel="noopener">Share on Facebook</a>
+        <a href="mailto:?subject=10 Proven Ways to Make Money in 2025&body=Check this guide: " target="_blank" rel="noopener">Email</a>
+      </div>
+    </div>
+    <div aria-hidden="true">
+      <!-- Decorative gradient blob -->
+      <svg viewBox="0 0 400 400" width="100%" height="100%">
+        <defs>
+          <radialGradient id="blob" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#7c9cff" stop-opacity=".9"></stop>
+            <stop offset="100%" stop-color="#7c9cff" stop-opacity="0"></stop>
+          </radialGradient>
+        </defs>
+        <circle cx="200" cy="200" r="160" fill="url(#blob)"></circle>
+      </svg>
+    </div>
+  </header>
+  
+  <main class="wrap">
+  
+    <!-- TOC -->
+    <section class="toc" aria-labelledby="toc-title">
+      <h2 id="toc-title" class="section-title">Table of Contents</h2>
+      <ol>
+        <li><a href="#m1">Freelancing on Global Marketplaces</a></li>
+        <li><a href="#m2">Selling Digital Products</a></li>
+        <li><a href="#m3">Dropshipping & E‑commerce</a></li>
+        <li><a href="#m4">Affiliate Marketing Platforms</a></li>
+        <li><a href="#m5">Content Creation & Monetization</a></li>
+        <li><a href="#m6">Online Tutoring & Coaching</a></li>
+        <li><a href="#m7">Print‑on‑Demand Merchandising</a></li>
+        <li><a href="#m8">Investing in Stocks, ETFs & Crypto</a></li>
+        <li><a href="#m9">Remote Customer Service Jobs</a></li>
+        <li><a href="#m10">Mobile App & Software Development</a></li>
+      </ol>
+    </section>
+  
+    <!-- METHODS GRID -->
+    <section id="methods" aria-labelledby="methods-title">
+      <h2 id="methods-title" class="section-title">The 10 Methods</h2>
+      <div class="grid" id="cards">
+        <!-- Card template repeated -->
+        <article id="m1" class="card">
+          <h3>1) Freelancing on Global Marketplaces</h3>
+          <p class="desc">Offer writing, design, coding, video, or admin skills to clients worldwide.</p>
+          <div class="links">
+            <a class="chip" href="https://www.upwork.com" target="_blank" rel="noopener">Upwork</a>
+            <a class="chip" href="https://www.fiverr.com" target="_blank" rel="noopener">Fiverr</a>
+            <a class="chip" href="https://www.freelancer.com" target="_blank" rel="noopener">Freelancer.com</a>
+            <a class="chip" href="https://www.toptal.com" target="_blank" rel="noopener">Toptal</a>
+          </div>
+        </article>
+  
+        <article id="m2" class="card">
+          <h3>2) Selling Digital Products</h3>
+          <p class="desc">Create assets once—e‑books, templates, videos—and sell repeatedly.</p>
+          <div class="links">
+            <a class="chip" href="https://kdp.amazon.com" target="_blank" rel="noopener">Amazon KDP</a>
+            <a class="chip" href="https://gumroad.com" target="_blank" rel="noopener">Gumroad</a>
+            <a class="chip" href="https://www.udemy.com" target="_blank" rel="noopener">Udemy</a>
+            <a class="chip" href="https://www.skillshare.com" target="_blank" rel="noopener">Skillshare</a>
+            <a class="chip" href="https://creativemarket.com" target="_blank" rel="noopener">Creative Market</a>
+          </div>
+        </article>
+  
+        <article id="m3" class="card">
+          <h3>3) Dropshipping & E‑commerce</h3>
+          <p class="desc">Launch a store, let suppliers handle inventory and shipping.</p>
+          <div class="links">
+            <a class="chip" href="https://www.shopify.com" target="_blank" rel="noopener">Shopify</a>
+            <a class="chip" href="https://woocommerce.com" target="_blank" rel="noopener">WooCommerce</a>
+            <a class="chip" href="https://www.aliexpress.com" target="_blank" rel="noopener">AliExpress</a>
+            <a class="chip" href="https://www.dsers.com" target="_blank" rel="noopener">DSers</a>
+          </div>
+        </article>
+  
+        <article id="m4" class="card">
+          <h3>4) Affiliate Marketing Platforms</h3>
+          <p class="desc">Recommend products/services and earn a commission.</p>
+          <div class="links">
+            <a class="chip" href="https://affiliate-program.amazon.com" target="_blank" rel="noopener">Amazon Associates</a>
+            <a class="chip" href="https://www.clickbank.com" target="_blank" rel="noopener">ClickBank</a>
+            <a class="chip" href="https://www.cj.com" target="_blank" rel="noopener">CJ Affiliate</a>
+            <a class="chip" href="https://www.shareasale.com" target="_blank" rel="noopener">ShareASale</a>
+          </div>
+        </article>
+  
+        <article id="m5" class="card">
+          <h3>5) Content Creation & Monetization</h3>
+          <p class="desc">Earn via ads, sponsors, memberships, and merch from videos, blogs, or podcasts.</p>
+          <div class="links">
+            <a class="chip" href="https://www.youtube.com/creators" target="_blank" rel="noopener">YouTube Partner</a>
+            <a class="chip" href="https://www.tiktok.com/creators/creator-portal" target="_blank" rel="noopener">TikTok Creator</a>
+            <a class="chip" href="https://www.patreon.com" target="_blank" rel="noopener">Patreon</a>
+            <a class="chip" href="https://podcasters.spotify.com" target="_blank" rel="noopener">Spotify for Podcasters</a>
+          </div>
+        </article>
+  
+        <article id="m6" class="card">
+          <h3>6) Online Tutoring & Coaching</h3>
+          <p class="desc">Teach languages, academics, or business/fitness skills online.</p>
+          <div class="links">
+            <a class="chip" href="https://preply.com" target="_blank" rel="noopener">Preply</a>
+            <a class="chip" href="https://www.italki.com" target="_blank" rel="noopener">italki</a>
+            <a class="chip" href="https://www.cambly.com" target="_blank" rel="noopener">Cambly</a>
+            <a class="chip" href="https://www.coach.me" target="_blank" rel="noopener">Coach.me</a>
+          </div>
+        </article>
+  
+        <article id="m7" class="card">
+          <h3>7) Print‑on‑Demand Merchandising</h3>
+          <p class="desc">Sell designs on apparel and accessories—no inventory needed.</p>
+          <div class="links">
+            <a class="chip" href="https://www.printful.com" target="_blank" rel="noopener">Printful</a>
+            <a class="chip" href="https://www.redbubble.com" target="_blank" rel="noopener">Redbubble</a>
+            <a class="chip" href="https://teespring.com" target="_blank" rel="noopener">TeeSpring</a>
+          </div>
+        </article>
+  
+        <article id="m8" class="card">
+          <h3>8) Investing in Stocks, ETFs & Crypto</h3>
+          <p class="desc">Diversify and invest long‑term. Start small and learn continuously.</p>
+          <div class="links">
+            <a class="chip" href="https://www.etoro.com" target="_blank" rel="noopener">eToro</a>
+            <a class="chip" href="https://www.interactivebrokers.com" target="_blank" rel="noopener">Interactive Brokers</a>
+            <a class="chip" href="https://www.binance.com" target="_blank" rel="noopener">Binance</a>
+            <a class="chip" href="https://www.coinbase.com" target="_blank" rel="noopener">Coinbase</a>
+          </div>
+        </article>
+  
+        <article id="m9" class="card">
+          <h3>9) Remote Customer Service Jobs</h3>
+          <p class="desc">Support customers via chat, email, or phone from anywhere.</p>
+          <div class="links">
+            <a class="chip" href="https://www.amazon.jobs" target="_blank" rel="noopener">Amazon Jobs</a>
+            <a class="chip" href="https://jobs.apple.com" target="_blank" rel="noopener">Apple At‑Home</a>
+            <a class="chip" href="https://www.ttecjobs.com" target="_blank" rel="noopener">TTEC</a>
+            <a class="chip" href="https://www.liveops.com" target="_blank" rel="noopener">LiveOps</a>
+          </div>
+        </article>
+  
+        <article id="m10" class="card">
+          <h3>10) Mobile App & Software Development</h3>
+          <p class="desc">Monetize via paid apps, subscriptions, or ads. Ship small, iterate fast.</p>
+          <div class="links">
+            <a class="chip" href="https://play.google.com/console" target="_blank" rel="noopener">Google Play Console</a>
+            <a class="chip" href="https://developer.apple.com/programs/" target="_blank" rel="noopener">Apple Developer</a>
+            <a class="chip" href="https://github.com/sponsors" target="_blank" rel="noopener">GitHub Sponsors</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  
+    <!-- CTA -->
+    <section id="cta" class="card" style="margin-top:1rem;">
+      <h3>Launch Your Blog in 30 Minutes</h3>
+      <p class="desc">Pick a niche, get hosting, install WordPress, publish your first post (this guide!).</p>
+      <div class="links">
+        <a class="chip" href="#top">🔼 Back to Top</a>
+        <a class="chip" href="mailto:?subject=Collab%20on%20Money%202025%20Blog&body=Hi%20Micky%2C%20I%E2%80%99d%20like%20help%20launching%20my%20blog." target="_blank" rel="noopener">💬 Collaborate</a>
+      </div>
+    </section>
+  
+  </main>
+  
+  <footer>
+    <div class="footer-inner">
+      <div class="small">© 2025 Money 2025 • Built by Micky</div>
+      <div class="small"><a href="#faq">FAQ</a> • <a href="#methods">Methods</a> • <button id="backTop" class="icon-btn" aria-label="Back to top">↑</button></div>
+    </div>
+  </footer>
+  
+  <!-- FAQ -->
+  <section id="faq" class="wrap" style="padding-bottom:3rem;">
+    <div class="card">
+      <h3>FAQ</h3>
+      <p><strong>How fast can I earn?</strong> Freelancing or POD can produce results within days once offers/designs go live; SEO‑driven methods may take weeks.</p>
+      <p><strong>What needs the least money?</strong> Freelancing and affiliate marketing can start with near‑zero cost—mainly your time.</p>
+      <p><strong>Do I need to code?</strong> No. Many methods rely on teaching, writing, design, or customer support.</p>
+    </div>
+  </section>
+  
+  <script>
+    // Mobile menu simple toggle (shows jump links in alert for minimal single-file footprint)
+    document.getElementById('menuBtn')?.addEventListener('click', () => {
+      alert('Quick links:\\n• Methods\\n• FAQ\\n• Get Started');
+    });
+  
+    // Theme toggle
+    const themeBtn = document.getElementById('themeBtn');
+    themeBtn?.addEventListener('click', () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'dark';
+      const next = cur === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      themeBtn.textContent = next === 'dark' ? '🌙' : '☀️';
+    });
+  
+    // Reveal cards on scroll
+    const obs = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('show'); obs.unobserve(e.target); } });
+    }, { threshold:.12 });
+    document.querySelectorAll('.card').forEach(c => obs.observe(c));
+  
+    // Back to top
+    document.getElementById('backTop')?.addEventListener('click', () => { window.scrollTo({top:0, behavior:'smooth'}); });
+  
+    // Simple scrollspy to mark nav current
+    const anchors = ['methods','faq','cta'].map(id => document.getElementById(id));
+    const navLinks = Array.from(document.querySelectorAll('.menu a'));
+    const spy = new IntersectionObserver((entries)=>{
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        const link = navLinks.find(a => a.getAttribute('href') === '#' + id);
+        if(link){ link.setAttribute('aria-current', entry.isIntersecting ? 'true' : 'false'); }
+      });
+    }, { threshold:.33 });
+    anchors.forEach(el => el && spy.observe(el));
+});
